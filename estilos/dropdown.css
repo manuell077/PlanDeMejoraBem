@@ -1,0 +1,68 @@
+@import url(botones.css);
+
+.contenedor{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.dropDown{
+    background-color: var(--colorNaranja);
+    font-family: var(--fuente);
+    width: 120px;
+    height: 40px;
+    list-style: none;
+    
+}
+
+
+.dropDown__principal{
+    text-decoration: none;
+    color: var(--colorBlanco);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1dvh;
+    padding-top: 10px;
+}
+
+.dropDown__contenidoItem a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--colorBlanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.dropDown__contenido{
+    background-color: var(--colorNaranja);
+    display: none;
+    list-style: none;
+    
+}
+
+.dropDown__item:hover .dropDown__contenido{
+      
+     display: block;
+}
+
+.dropDown__contenido--fondoTexto:hover a{
+    transition: 2s;
+    background-color: var(--colorBrown);
+    color: var(--colorAmarillo);
+}
+
+
+.dropDown__item--alto .dropDown__contenido{
+    height: 370px;
+
+}
+
+.dropDown__contenido--tamañoFuente:hover {
+    
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

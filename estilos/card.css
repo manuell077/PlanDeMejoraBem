@@ -1,0 +1,93 @@
+@import url(botones.css);
+
+
+
+.contenedor{
+     margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+.card{
+    
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px var(--colorSombra);
+    margin-bottom: 40px;
+}
+
+
+
+
+.card__imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.card__texto{
+    
+    text-align: justify;
+    font-family: "SUSE", sans-serif;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+
+}
+
+.card__boton{
+    font-family: "SUSE", sans-serif;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 5px;
+    width: 80px;
+    background-color: var(--colorBlancoNoSaturado);
+    box-shadow: 0 4px 8px var(--colorSombra);
+
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card--colorFondo:hover{
+    transition: 2s;
+    background-color: var(--colorGrayFuerte);
+}
+
+.card__imagen--tamañoImagen:hover{
+    transition: 2s;
+    height: 400px;
+}
+
+.titulos{
+
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.titulos__textos{
+    font-family: "SUSE", sans-serif;
+}
+
+
+.card__boton--colorTamaño:hover{
+    transition: 2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: var(--colorAgua);
+
+}

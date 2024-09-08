@@ -1,0 +1,58 @@
+@import url(botones.css );
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.advertencia{
+     width: 300px;
+     border: 4px solid var(--colorFondo);
+     background-color: var(--colorAmarillo);
+     
+
+}
+.advertencia__imagen{
+    margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+
+}
+
+.advertencia__texto{
+    font-family: var(--fuente);
+    text-align: left;
+    padding: 10px ;
+}
+
+.adevertencia__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.advertencia--fondo:hover{
+    cursor: pointer;
+     background-color: var(--colorverdeSuave);
+     transition: 2s;
+}
+
+.advertencia--height:hover{
+    transition: 2s;
+    width:  450px;
+    cursor: pointer;
+}
+
+.advertencia--imagen:hover .advertencia__imagen{
+    transition: 2s;    
+    width: 150px;
+}
+
+

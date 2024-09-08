@@ -1,0 +1,69 @@
+@import url(botones.css);
+
+
+.badge{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.badge__texto{
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    background-color: var(--colorGrayFuerte);
+    color: var(--colorBlanco);
+
+
+}
+
+.badge__texto--colorFondo{
+
+    background-color: var(--colorGraySuave);
+
+}
+
+.badge__texto--colorFondo:hover{
+
+    background-color: var(--colorGrayFuerte) ;
+    cursor: pointer;
+}
+
+.badge__texto--creceTamaño{
+    background-color: var(--colorBisque);
+    
+}
+
+.badge__texto--creceTamaño:hover{
+    cursor: pointer;
+    background-color: var(--colorOroOscuro);
+    border-radius: 1rem;
+    transition: 2s;
+    font-size: 85%;
+}
+
+.badge__texto--textoFondo{
+    background-color: var(--colorFondo);
+
+}
+
+.badge__texto--textoFondo:hover{
+
+    cursor: pointer;
+    background-color: var(--colorBlanco);
+    color: var(--colorFondo);
+    border: 1px solid var(--colorFondo);
+    transition: 1s;
+}
+
+.bloque{
+    width: 400px;
+    margin:40px auto;
+}

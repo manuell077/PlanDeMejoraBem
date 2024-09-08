@@ -1,0 +1,66 @@
+@import url(botones.css);
+
+
+.contenedor{
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 30px;
+
+}
+
+.progressBar{
+
+    background-color: var(--colorSombra);
+    width: 250px;
+    height: 90px;
+    border-radius: 25px;
+}
+
+.progressBar__texto{
+    font-family: var(--fuente);
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 5PX;
+    font-size: 30px;
+}
+
+
+.progressBar__barra{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    width: 200px;
+    height: 20px;
+    
+    border: 2px solid var(--colorFondo);
+    border-radius: 25px;
+}
+
+.progressBar__progreso{
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(to right, var(--colorVerdeSuave, var(--colorAgua)), var(--colorAmarillo, var(--colorNaranja)), var(--colorRojo, var(--colorBrown)));
+    border-radius: 10px 0 0 10px;
+    
+}
+
+.progressBar__progreso--90:hover{
+    transition: 2s;
+    cursor: pointer;
+    width: 90%;
+}
+.progressBar__progreso--40:hover{
+    transition: 2s;
+    cursor: pointer;
+    width: 40%;
+}
+
+.progressBar__progreso--10:hover{
+    transition: 2s;
+    cursor: pointer;
+    width: 10%;
+}
+

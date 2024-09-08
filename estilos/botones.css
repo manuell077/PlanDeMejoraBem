@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('variables.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu navegacion */
+.menu-navegacion{
+    
+    background-color: var(--colorFondo);
+    height: var(--tamañoAltoMenu);
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    
+}
+
+.menu-navegacion__listas{
+    padding-top: 40px ;
+    display: flex;
+    
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+
+
+.menu-navegacion__links{
+    font-family: "SUSE", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--colorBlanco);
+}
+
+
+
+
+.menu-navegacion__links:hover{
+    color: var(--colorNaranja);
+}
+
+.botonVolver{
+    margin: 20px auto;
+    font-family: "SUSE", sans-serif;
+    font-weight: bold;
+    background-color: var(--colorFondo);
+    width: 200px;
+    height: 80px;
+    padding-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--colorBlanco);
+
+}
+
+.botonVolver__link{
+    text-decoration: none;
+    color: var(--colorBlanco);
+}
+.botonVolver__link:hover{
+    color: var(--colorNaranja);
+}
+
+.botonVolver__link:visited{
+    text-decoration: none;
+}
+
+.botones__titulo{
+    padding-top: 100px;
+    text-align: center;
+    font-family: "SUSE", sans-serif;
+     width: 200px;
+     margin: 0 auto;
+}
+
+
+/* Botones */
+.boton{
+    display: inline-flex;
+    width: 120px;
+    background-color: var(--colorVioleta);
+    padding: 12px;
+    border: 1px solid var(--colorVioleta);
+    border-radius: 5px;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--colorBlanco);
+    cursor: pointer;
+    
+  
+  }
+  .boton--border{
+     border: 1px solid var(--colorFondo);
+     background-color: var(--colorBlanco);
+     color: var(--colorVioleta);
+  
+  }
+  
+  .boton:hover{
+     background-color: var(--colorBlanco);
+     color: var(--colorVioleta) ;
+     transition: 2s;
+  
+  }
+  
+  .boton--border:hover{
+     border: 1px solid var(--colorFondo);
+     background-color: var(--colorVioleta);
+     color: var(--colorBlanco);
+     transition: 2s;
+  
+  }
+  
+  
+  
+  .boton--azul:hover{
+     background-color: var(--colorAzul);
+     transition: 2s;
+  
+  
+  }
+
+  .boton--amarilloSuave{
+    background-color: var(--colorBlanco);
+     color: var(--colorAmarillo);
+  
+  
+  }
+  .boton--amarilloSuave:hover{
+    background-color: var(--colorAmarillo);
+    color: var(--colorFondo) ;
+    transition: 2s;
+  
+  }
+  
+  .boton--amarillo{
+     background-color: var(--colorAmarillo);
+     color: var(--colorFondo) ;
+     
+  
+  
+  }
+  
+  .boton--amarillo:hover{
+     background-color: var(--colorBlanco);
+     color: var(--colorAmarillo);
+     transition: 2s;
+  
+  }
+  
+  .boton--rojoSuave{
+     background-color: var(--colorBlanco);
+     color: var(--colorRojo);
+  
+  }
+  
+  .boton--rojoSuave:hover{
+     background-color: var(--colorRojo);
+     color: var(--colorBlanco);
+     transition: 2s;
+  
+  }
+  .boton--rojo{
+     background-color: var(--colorRojo);
+  
+  }
+  .boton--rojo:hover{
+    background-color: var(--colorBlanco);
+    color: var(--colorRojo);
+    transition: 2s;
+  
+  }
+  
+  .boton--verdeSuave{
+     background-color: var(--colorBlanco) ;
+     color: var(--colorverdeSuave);
+  
+  
+  }
+  .boton--verdeSuave:hover{
+    background-color: var(--colorverdeSuave);
+    color:var(--colorBlanco);
+    transition: 2s;
+  
+  }
+  
+  .boton--verde{
+    background-color: var(--colorverdeSuave);
+    color:var(--colorBlanco);
+    
+  }
+  
+  .boton--verde:hover{
+     
+      background-color: var(--colorBlanco) ;
+     color: var(--colorverdeSuave);
+     transition: 2s;
+  
+  }
+
+
+  .bloques{
+    margin: 20px auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+
+
+

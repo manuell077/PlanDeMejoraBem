@@ -1,0 +1,26 @@
+:root{
+    --colorBlanco: #fff;
+    --colorNaranja: #FFA500;
+    --colorFondo: #000;
+    --tamañoAltoMenu: 100px;
+    --colorAzul: #1419b4;
+    --colorAmarillo:  #e0da1c;
+    --colorRojo: #f12;
+    --colorverdeSuave:#81e410;
+    --colorVioleta: #8a2be2;
+    --colorFondoAcordeon: rgb(245, 245, 245);
+    --colorAguaMarina: #7fffd4;
+    --colorAgua: #00ffff;
+    --colorRojoPocoSaturado: #dc143c;
+    --colorBrownie: #deb887;
+    --colorGraySuave: #a9a9a9;
+    --colorGrayFuerte:#6c757d;
+    --colorBisque: #ffe4c4;
+    --colorOroOscuro: #b8860b;
+    --colorBrown: #a52a2a;
+    --colorVerdeOscuro:#008000;
+    --colorBlancoNoSaturado:#f0f8ff;
+    --colorThiste: #d8bfd8;
+    --colorSombra: #00000033;
+    --fuente:"Poppins", sans-serif;
+}

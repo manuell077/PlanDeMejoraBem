@@ -1,0 +1,79 @@
+@import url(botones.css);
+@import url(variables.css);
+
+.acordeon{
+    width: 700px;
+    padding: 40px;
+    background-color: var(--colorFondoAcordeon);
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.acordeon__titulo{
+
+    background-color: var(--colorAzul);
+    color: var(--colorBlanco);
+    padding: 20px;
+    cursor: pointer;
+    font-family:  "Poppins", sans-serif;
+    
+}
+
+.acordeon__texto{
+   padding: 10px;
+   background: var(--colorBlanco);
+   font-family:  "Poppins", sans-serif;
+
+}
+.acordeon__titulo--fondoAqua{
+
+    background-color: var(--colorFondo);
+}
+
+.acordeon__titulo--fondoAqua:active{
+     background-color: var(--colorAguaMarina);
+     
+}
+
+.acordeon__texto--fondoAqua:hover{
+
+    background-color: var(--colorAgua);
+    transition: 2s;
+}
+
+.acordeon__titulo--rojoPocoSaturado{
+
+    background-color: var(--colorRojoPocoSaturado);
+}
+
+.acordeon__texto--bordes:hover{
+
+    background-color: var(--colorBrownie);
+    border-radius: 35px ;
+    transition: 2s;
+}
+
+.acordeon__titulo--tamaño{
+     background-color: var(--colorAmarillo);
+
+
+}
+
+.acordeon__titulo--tamaño:active{
+
+    width: 710px;
+    
+}
+
+.acordeon__texto--aumentoFuente:hover{
+    font-size: 20px;
+    transition: 5s;
+}
+
+.bloque{
+    margin: 60px auto ;
+    width: 800px;
+}

@@ -1,0 +1,61 @@
+@import url(botones.css);
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  
+ 
+  .tooltip__texto {
+    visibility: hidden; 
+    width: 120px;
+    background-color: var(--colorFondo);
+    color: var(--colorBlanco);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+  
+   
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    
+    opacity: 0; 
+    transition: opacity 0.3s;
+    
+  }
+  
+  
+  .tooltip:hover .tooltip__texto {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .contenedor{
+    margin-top: 40px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+  }
+
+
+.tooltip--fondo:hover  .tooltip__texto{
+    background-color: var(--colorAmarillo);
+}
+
+.tooltip--fuente:hover .tooltip__texto{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tooltip--asterisco:hover .tooltip__texto::before{
+        content: "*";
+        
+
+}

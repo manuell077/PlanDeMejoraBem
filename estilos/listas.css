@@ -1,0 +1,90 @@
+@import url(botones.css);
+
+.lista{
+    width: 450px;
+   
+ 
+ }
+ 
+ 
+ .lista__item{
+   border: 1px solid var(--colorFondo);
+   border-bottom: 5px solid var(--colorFondo) ;
+   border-radius: 20px;
+   padding: 12px;
+   margin: 25px;
+   
+ 
+ }
+ 
+ .lista__item:hover{
+    font-size: 20px;
+    background-color: var(--colorBlancoNoSaturado);
+    transition: 2s;
+ 
+ }
+ 
+ 
+ 
+ .lista__item2{
+   
+   border-radius: 20px;
+   padding: 12px;
+   margin: 25px;
+ 
+ }
+ 
+ 
+ .lista__texto{
+     font-family: "Poppins", sans-serif;
+ 
+ }
+ 
+ .lista__item--tamañoPequeño{
+ 
+    background-color: var(--colorBlancoNoSaturado);
+ }
+ 
+ .lista__item--tamañoPequeño:hover{
+ 
+     font-size: 10px;
+     transition: 2s;
+     background-color: var(--colorBisque);
+ }
+ 
+ .lista__item--chulito{
+ 
+    background-color: var(--colorBrown);
+ }
+ 
+ .lista__item--chulito:hover::before{
+       
+      content: "✓";
+      
+     
+ }
+ 
+ .lista__item--chulito:hover{
+ 
+      background-color: var(--colorThiste);
+ 
+ }
+ 
+ .lista__item--aumentoTamaño{
+     background-color: var(--colorRojo);
+ 
+ }
+ 
+ .lista__item--aumentoTamaño:hover{
+      
+      color: var(--colorBlanco);
+      background-color: var(--colorAzul);
+      font-size: 35px;
+      font-family: "Edu AU VIC WA NT Hand", cursive;
+ 
+ }
+
+ .bloque{
+    width: 400px;
+    margin: 40px auto;
+ }
